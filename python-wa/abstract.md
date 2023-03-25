@@ -4,7 +4,7 @@
 ### Adjunct Research Fellow, Curtin University
 
 
-TL;DR: A short background on powder diffraction and data formats will be given. pdCIFplotter, my program for visualising powder diffraction data, will be explained, discussed, and demonstrated. pdCIFplotter was originally written in Python 3.7, and is about to undergo a large refactoring of the internal data structures to more easily provide more front-end functionality.
+TL;DR: A short background on powder diffraction and data formats will be given. `pdCIFplotter`, my program for visualising powder diffraction data, will be explained, discussed, and demonstrated. `pdCIFplotter` was originally written in Python 3.7, and is about to undergo a large refactoring of the internal data structures to more easily provide more front-end functionality.
 
 ---
 
@@ -12,9 +12,9 @@ X-ray powder diffraction (XRD) is an analytical technique used to identify, quan
 
 The Crystallographic Information Framework (CIF) is a human- and machine-readable text-based file format for the exchange of crystallographic information. Originally constructed for single-crystal data, the core CIF dictionary has been extended to include powder diffraction data – pdCIF – amongst others. 
 
-There are a variety of tools available for the creation, viewing and editing of CIF files; however, there is a dearth of end-user tools that work well with pdCIF, and as a result, the adoption of pdCIF is not as widespread as it should be. Common powder diffraction analysis software packages are often capable of outputting diffraction data and model results, in pdCIF format but are then not able to read in those same files. This lack of interoperability makes studying the data and models by a third party a difficult process without access to the original software and analysis files. 
+There are a variety of tools available for the creation, viewing, and editing of CIF files; however, there is a dearth of end-user tools that work well with pdCIF, and, as a result, the adoption of pdCIF is not as widespread as it should be. Common powder diffraction analysis software packages are often capable of outputting diffraction data and model results in pdCIF format but are then not able to read in those same files. This lack of interoperability makes studying the data and models by a third party a difficult process without access to the original software and analysis files. 
 
-To expand the available pdCIF software tools for the end-user, the program pdCIFplotter has been written to provide an easy-to-use interface for visualizing powder diffraction data and models published in pdCIF format. In particular, support for the visualization of multi-pattern data sets, such as in situ data, is provided by means of stack and surface plots.
+To expand the available pdCIF software tools for the end-user, the program `pdCIFplotter` has been written to provide an easy-to-use interface for visualizing powder diffraction data and models published in pdCIF format. In particular, support for the visualization of multi-pattern data sets, such as *in situ* data, is provided by means of stack and surface plots.
 
 If you’re really keen, you can read ahead at https://doi.org/10.1107/S1600576722003478 and https://github.com/rowlesmr/pdCIFplotter. 
 
